@@ -8,6 +8,14 @@
     },
     {
       "path": "./apps/api"
-    }
+    },
+    {
+      "path": "./libs/data"
+    },
+    {
+      "path": "./libs/auth"
+    },
+    { "path": "./apps/dashboard" },
+    { "path": "./apps/dashboard-e2e" }
   ]
 }

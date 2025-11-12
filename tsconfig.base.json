@@ -2,9 +2,9 @@
   "compilerOptions": {
     "composite": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true,
+    // "emitDeclarationOnly": true,
     "importHelpers": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "lib": ["es2022"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
@@ -16,6 +16,11 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@secure-task-system/source"]
+    "customConditions": ["@secure-task-system/source"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   }
 }

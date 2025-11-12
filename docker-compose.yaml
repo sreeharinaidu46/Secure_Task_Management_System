@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: securetask_postgres
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: task_admin
+      POSTGRES_PASSWORD: superTurboVets2025
+      POSTGRES_DB: securetask_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

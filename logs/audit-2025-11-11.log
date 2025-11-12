@@ -1,0 +1,10 @@
+[2025-11-11T02:43:57.909Z] POST /api/tasks | undefined (manasa@techmahindra.com) [Owner] → Created task "Implement RBAC in Secure Task System"
+payload: {"title":"Implement RBAC in Secure Task System","description":"Add organization, role, and audit log checks for all endpoints"}
+[2025-11-11T02:44:08.972Z] POST /api/tasks | undefined (manasa@techmahindra.com) [Owner] → Created task "Implement RBAC in Secure Task System"
+payload: {"title":"Implement RBAC in Secure Task System","description":"Add organization, role, and audit log checks for all endpoints"}
+[2025-11-11T03:20:28.555Z] POST /api/auth/login | Manasa Patil (sreehari@gmail.com) [Viewer] → Successful login
+payload: {"email":"sreehari@gmail.com"}
+[2025-11-11T03:41:26.320Z] POST /api/auth/login | Manasa Patil (sreehari@gmail.com) [Viewer] → Successful login
+payload: {"email":"sreehari@gmail.com"}
+[2025-11-11T05:35:13.320Z] POST /api/auth/login | Manasa Patil (sreehari@gmail.com) [Viewer] → Successful login
+payload: {"email":"sreehari@gmail.com"}

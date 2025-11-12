@@ -1,0 +1,252 @@
+[2025-11-12T00:55:53.231Z] POST /api/auth/register | Arya Patel (arya@gmail.com) [Viewer] → User registered successfully
+payload: {"email":"arya@gmail.com","password":"StrongPass123","fullName":"Arya Patel","organizationName":"TurboVet","role":"Viewer"}
+[2025-11-12T00:56:08.184Z] POST /api/auth/login | Arya Patel (arya@gmail.com) [Viewer] → Successful login
+payload: {"email":"arya@gmail.com"}
+[2025-11-12T04:15:18.401Z] POST /api/auth/register | Sreeharinaidu Rangani (sreeharinaidur@gmail.com) [Admin] → User registered successfully
+payload: {"fullName":"Sreeharinaidu Rangani","email":"sreeharinaidur@gmail.com","password":"123456","organization":"USA","role":"Admin"}
+[2025-11-12T04:15:53.191Z] POST /api/auth/login | Arya Patel (arya@gmail.com) [Viewer] → Successful login
+payload: {"email":"arya@gmail.com"}
+[2025-11-12T04:25:33.113Z] POST /api/auth/login | Sreeharinaidu Rangani (sreeharinaidur@gmail.com) [Admin] → Successful login
+payload: {"email":"sreeharinaidur@gmail.com"}
+[2025-11-12T04:54:00.049Z] POST /api/auth/login | Sreeharinaidu Rangani (sreeharinaidur@gmail.com) [Admin] → Successful login
+payload: {"email":"sreeharinaidur@gmail.com"}
+[2025-11-12T14:33:17.262Z] POST /api/auth/register | Manasa Patil (admin@techmahindra.com) [Owner] → User registered successfully
+payload: {"email":"admin@techmahindra.com","password":"Admin@123","fullName":"Manasa Patil","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T14:38:29.397Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: admin@techmahindra.com)
+payload: {"email":"admin@techmahindra.com","password":"Admin@123","fullName":"Manasa Patil","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T14:39:15.202Z] POST /api/auth/register | Sreeharinaidu Rangani (hari123@gmail.com) [Owner] → User registered successfully
+payload: {"email":"hari123@gmail.com","password":"Admin@123","fullName":"Sreeharinaidu Rangani","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T14:45:42.745Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: admin@techmahindra.com)
+payload: {"email":"admin@techmahindra.com","password":"Admin@123","fullName":"Manasa Patil","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T14:45:51.533Z] POST /api/auth/register | Manasa Patil (admin1@techmahindra.com) [Owner] → User registered successfully
+payload: {"email":"admin1@techmahindra.com","password":"Admin@123","fullName":"Manasa Patil","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T14:47:34.384Z] POST /api/auth/login | Manasa Patil (admin1@techmahindra.com) [Owner] → Successful login
+payload: {"email":"admin1@techmahindra.com"}
+[2025-11-12T14:52:59.985Z] POST /api/tasks | undefined (admin1@techmahindra.com) [Owner] → Created task "Buy groceries"
+payload: {}
+[2025-11-12T14:59:43.092Z] POST /api/auth/register | Manasa Owner (owner@techmahindra.com) [Owner] → User registered successfully
+payload: {"email":"owner@techmahindra.com","password":"Owner@123","fullName":"Manasa Owner","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T14:59:54.701Z] POST /api/auth/register | Manasa Viewer (viewer@techmahindra.com) [Viewer] → User registered successfully
+payload: {"email":"viewer@techmahindra.com","password":"Viewer@123","fullName":"Manasa Viewer","role":"Viewer","organizationName":"Tech Mahindra"}
+[2025-11-12T15:00:14.754Z] POST /api/auth/login | Manasa Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:03:48.172Z] POST /api/auth/login | Manasa Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:26:13.177Z] POST /api/auth/register | System / Anonymous → Created new organization "Tech Mahindra" during registration
+payload: {}
+[2025-11-12T15:26:13.272Z] POST /api/auth/register | Sreehari Viewer (viewer@techmahindra.com) [Viewer] → User registered successfully
+payload: {"email":"viewer@techmahindra.com","password":"Viewer@123","fullName":"Sreehari Viewer","role":"Viewer","organizationName":"Tech Mahindra"}
+[2025-11-12T15:26:33.839Z] POST /api/auth/register | Sreehari Owner (owner@techmahindra.com) [Owner] → User registered successfully
+payload: {"email":"owner@techmahindra.com","password":"Owner@123","fullName":"Sreehari Owner","role":"Owner","organizationName":"Tech Mahindra"}
+[2025-11-12T15:26:48.433Z] POST /api/auth/login | Sreehari Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:27:20.065Z] UNKNOWN_METHOD UNKNOWN_URL | Sreehari Owner (owner@techmahindra.com) [Owner] → Created task "Prepare Finance Report"
+payload: {"title":"Prepare Finance Report","description":"Q4 results compilation","type":"Work"}
+[2025-11-12T15:30:31.856Z] GET /api/tasks | undefined (owner@techmahindra.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T15:39:55.271Z] GET /api/tasks | Sreehari Owner (owner@techmahindra.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T15:40:40.569Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: viewer@techmahindra.com)
+payload: {"email":"viewer@techmahindra.com","password":"Viewer@123","fullName":"Sreehari Viewer","role":"Viewer","organizationName":"Tech Mahindra"}
+[2025-11-12T15:41:21.845Z] POST /api/auth/login | Sreehari Viewer (viewer@techmahindra.com) [Viewer] → Successful login
+payload: {"email":"viewer@techmahindra.com"}
+[2025-11-12T15:43:16.169Z] POST /api/auth/register | System / Anonymous → Created new organization "Turbovets inc" during registration
+payload: {}
+[2025-11-12T15:43:16.278Z] POST /api/auth/register | Sreehari Owner (admin@turbo.com) [Owner] → User registered successfully
+payload: {"email":"admin@turbo.com","password":"Owner@123","fullName":"Sreehari Owner","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T15:43:48.521Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T15:44:33.971Z] UNKNOWN_METHOD UNKNOWN_URL | Sreehari Owner (admin@turbo.com) [Owner] → Created task "Comple Setting Page"
+payload: {"title":"Comple Setting Page","description":"Settings Page Dev","type":"Work"}
+[2025-11-12T15:44:52.097Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T15:45:48.018Z] POST /api/auth/login | Sreehari Viewer (viewer@techmahindra.com) [Viewer] → Successful login
+payload: {"email":"viewer@techmahindra.com"}
+[2025-11-12T15:47:55.002Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T15:51:49.304Z] POST /api/auth/login | Sreehari Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:52:26.103Z] PUT /api/tasks/5 | Sreehari Owner (owner@techmahindra.com) [Owner] → Updated task "Comple Setting Page"
+payload: {}
+[2025-11-12T15:52:41.571Z] POST /api/auth/login | Sreehari Viewer (viewer@techmahindra.com) [Viewer] → Successful login
+payload: {"email":"viewer@techmahindra.com"}
+[2025-11-12T15:53:16.824Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T15:53:27.716Z] PUT /api/tasks/5 | Sreehari Owner (admin@turbo.com) [Owner] → Updated task "Comple Setting Page"
+payload: {}
+[2025-11-12T15:53:54.292Z] POST /api/auth/login | Sreehari Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:54:52.967Z] PUT /api/tasks/5 | Sreehari Owner (owner@techmahindra.com) [Owner] → Updated task "Comple Setting Page"
+payload: {}
+[2025-11-12T15:55:04.597Z] POST /api/auth/login | Sreehari Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:55:05.773Z] POST /api/auth/login | Sreehari Owner (owner@techmahindra.com) [Owner] → Successful login
+payload: {"email":"owner@techmahindra.com"}
+[2025-11-12T15:55:17.527Z] GET /api/tasks | Sreehari Owner (owner@techmahindra.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T15:55:55.147Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T15:56:44.273Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T15:57:14.131Z] PUT /api/tasks/4 | Sreehari Owner (admin@turbo.com) [Owner] → Updated task "Prepare Finance Report"
+payload: {}
+[2025-11-12T16:05:01.263Z] DELETE /api/tasks/5 | Sreehari Owner (admin@turbo.com) [Owner] → Deleted task "Comple Setting Page"
+payload: {}
+[2025-11-12T16:28:02.753Z] POST /api/auth/register | Sreeharinaidu Rangani (srangani2023@fau.edu) [Owner] → User registered successfully
+payload: {"fullName":"Sreeharinaidu Rangani","email":"srangani2023@fau.edu","password":"@123Hari","organization":"Florida Atlantic University","role":"Owner"}
+[2025-11-12T16:28:13.080Z] POST /api/auth/login | Sreeharinaidu Rangani (srangani2023@fau.edu) [Owner] → Successful login
+payload: {"email":"srangani2023@fau.edu"}
+[2025-11-12T18:20:13.875Z] POST /api/auth/login | System / Anonymous → Failed login attempt (invalid email: sreeharinaidur@gmail.com)
+payload: {"email":"sreeharinaidur@gmail.com","password":"@123Hari"}
+[2025-11-12T18:20:19.783Z] POST /api/auth/login | System / Anonymous → Failed login attempt (invalid email: sreeharinaidur@gmail.com)
+payload: {"email":"sreeharinaidur@gmail.com","password":"@123Hari"}
+[2025-11-12T18:20:21.197Z] POST /api/auth/login | System / Anonymous → Failed login attempt (invalid email: sreeharinaidur@gmail.com)
+payload: {"email":"sreeharinaidur@gmail.com","password":"@123Hari"}
+[2025-11-12T18:20:24.144Z] POST /api/auth/login | System / Anonymous → Failed login attempt (invalid email: sreeharinaidur@gmail.com)
+payload: {"email":"sreeharinaidur@gmail.com","password":"@123Hari"}
+[2025-11-12T18:20:43.393Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T18:20:43.467Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:21:15.365Z] UNKNOWN_METHOD UNKNOWN_URL | Sreehari Owner (admin@turbo.com) [Owner] → Created task "Testing and Eating"
+payload: {"title":"Testing and Eating","type":"Personal","status":"Todo"}
+[2025-11-12T18:21:15.378Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:21:34.855Z] UNKNOWN_METHOD UNKNOWN_URL | Sreehari Owner (admin@turbo.com) [Owner] → Created task "testing 2"
+payload: {"title":"testing 2","type":"Work","status":"Todo"}
+[2025-11-12T18:21:34.878Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:23:18.971Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:23:21.588Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:23:41.863Z] DELETE /api/tasks/7 | Sreehari Owner (admin@turbo.com) [Owner] → Deleted task "testing 2"
+payload: {}
+[2025-11-12T18:23:41.876Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:23:44.007Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:50:01.547Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T18:50:01.601Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:50:18.575Z] PUT /api/tasks/6 | Sreehari Owner (admin@turbo.com) [Owner] → Updated task "Testing and Eating"
+payload: {}
+[2025-11-12T18:50:18.593Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:50:31.660Z] PUT /api/tasks/6 | Sreehari Owner (admin@turbo.com) [Owner] → Updated task "Testing and Eating"
+payload: {}
+[2025-11-12T18:50:31.673Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T18:51:19.945Z] UNKNOWN_METHOD UNKNOWN_URL | Sreehari Owner (admin@turbo.com) [Owner] → Created task "Second Option"
+payload: {"title":"Second Option","type":"Work","status":"In-Progress","description":"heloothere"}
+[2025-11-12T18:51:19.959Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T19:01:37.630Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T19:01:37.700Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T19:02:15.169Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T19:02:15.208Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T20:52:33.892Z] POST /api/auth/register | System / Anonymous → Created new organization "TurboVets" during registration
+payload: {}
+[2025-11-12T20:52:33.970Z] POST /api/auth/register | Sreehari (sreeharinaidur@gmail.com) [Admin] → User registered successfully
+payload: {"fullName":"Sreehari","email":"sreeharinaidur@gmail.com","password":"Hari@123","organizationName":"TurboVets","role":"Admin"}
+[2025-11-12T20:53:06.356Z] POST /api/auth/register | System / Anonymous → Created new organization "Turbovets inc" during registration
+payload: {}
+[2025-11-12T20:53:06.446Z] POST /api/auth/register | Sreehari Owner (admin@turbo.com) [Owner] → User registered successfully
+payload: {"email":"admin@turbo.com","password":"Owner@123","fullName":"Sreehari Owner","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T20:53:08.349Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: admin@turbo.com)
+payload: {"email":"admin@turbo.com","password":"Owner@123","fullName":"Sreehari Owner","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T20:53:18.146Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: admin@turbo.com)
+payload: {"email":"admin@turbo.com","password":"Owner@123","fullName":"Sreehari Owner","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T21:13:49.097Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T21:34:03.684Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T21:34:03.747Z] GET /api/tasks | Sreehari Owner (admin@turbo.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T21:58:41.396Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: admin@turbo.com)
+payload: {"email":"admin@turbo.com","password":"Owner@123","fullName":"Sreehari Owner","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T21:59:29.876Z] POST /api/auth/register | Hari (x1mail.com) [Owner] → User registered successfully
+payload: {"email":"x1mail.com","password":"password","fullName":"Hari","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T21:59:47.776Z] POST /api/auth/register | Hari (x2mail.com) [Owner] → User registered successfully
+payload: {"email":"x2mail.com","password":"password","fullName":"Hari","role":"Owner","organizationName":"Turbovets inc"}
+[2025-11-12T22:00:08.496Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: x2mail.com)
+payload: {"email":"x2mail.com","password":"password","fullName":"Hari","role":"Viewer","organizationName":"Turbovets inc"}
+[2025-11-12T22:00:21.323Z] POST /api/auth/register | Hari (viewer@gmail.com) [Viewer] → User registered successfully
+payload: {"email":"viewer@gmail.com","password":"password","fullName":"Hari","role":"Viewer","organizationName":"Turbovets inc"}
+[2025-11-12T22:00:43.822Z] POST /api/auth/login | Hari (viewer@gmail.com) [Viewer] → Successful login
+payload: {"email":"viewer@gmail.com"}
+[2025-11-12T22:01:24.234Z] POST /api/auth/login | Sreehari Owner (admin@turbo.com) [Owner] → Successful login
+payload: {"email":"admin@turbo.com"}
+[2025-11-12T22:01:49.043Z] POST /api/auth/register | System / Anonymous → Created new organization "abc" during registration
+payload: {}
+[2025-11-12T22:01:49.155Z] POST /api/auth/register | Hari (viewer1@gmail.com) [Viewer] → User registered successfully
+payload: {"email":"viewer1@gmail.com","password":"password","fullName":"Hari","role":"Viewer","organizationName":"abc"}
+[2025-11-12T22:02:03.133Z] POST /api/auth/register | System / Anonymous → Failed registration (email already exists: viewer1@gmail.com)
+payload: {"email":"viewer1@gmail.com","password":"password","fullName":"Hari","role":"Owner","organizationName":"abc"}
+[2025-11-12T22:02:07.786Z] POST /api/auth/register | Hari (viewer2@gmail.com) [Owner] → User registered successfully
+payload: {"email":"viewer2@gmail.com","password":"password","fullName":"Hari","role":"Owner","organizationName":"abc"}
+[2025-11-12T22:02:23.585Z] POST /api/auth/login | Hari (viewer2@gmail.com) [Owner] → Successful login
+payload: {"email":"viewer2@gmail.com"}
+[2025-11-12T22:02:44.967Z] GET /api/tasks | Hari (viewer2@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:03:30.653Z] POST /api/auth/register | Harry (XYZ@gmail.com) [Owner] → User registered successfully
+payload: {"fullName":"Harry","email":"XYZ@gmail.com","password":"password","organizationName":"TurboVets","role":"Owner"}
+[2025-11-12T22:03:38.286Z] POST /api/auth/login | Harry (XYZ@gmail.com) [Owner] → Successful login
+payload: {"email":"XYZ@gmail.com"}
+[2025-11-12T22:03:38.330Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:04:44.474Z] UNKNOWN_METHOD UNKNOWN_URL | Harry (XYZ@gmail.com) [Owner] → Created task "Eting Food"
+payload: {"title":"Eting Food","type":"Personal","status":"Todo","description":"I like food"}
+[2025-11-12T22:04:44.498Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:05:08.678Z] UNKNOWN_METHOD UNKNOWN_URL | Harry (XYZ@gmail.com) [Owner] → Created task "ABC1"
+payload: {"title":"ABC1","type":"Work","status":"Todo","description":"Gettting Proj Done"}
+[2025-11-12T22:05:08.705Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:06:21.001Z] POST /api/auth/register | Bot (ZYX@mail.com) [Admin] → User registered successfully
+payload: {"fullName":"Bot","email":"ZYX@mail.com","password":"password","organizationName":"TurboVets","role":"Admin"}
+[2025-11-12T22:06:27.662Z] POST /api/auth/login | Bot (ZYX@mail.com) [Admin] → Successful login
+payload: {"email":"ZYX@mail.com"}
+[2025-11-12T22:06:27.701Z] GET /api/tasks | Bot (ZYX@mail.com) [Admin] → Viewed all tasks
+payload: {}
+[2025-11-12T22:15:58.077Z] POST /api/auth/login | Harry (XYZ@gmail.com) [Owner] → Successful login
+payload: {"email":"XYZ@gmail.com"}
+[2025-11-12T22:15:58.148Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:16:58.316Z] UNKNOWN_METHOD UNKNOWN_URL | Harry (XYZ@gmail.com) [Owner] → Created task "Work on Audi file"
+payload: {"title":"Work on Audi file","type":"Work","status":"Todo","description":"this a description"}
+[2025-11-12T22:16:58.334Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:26:02.318Z] POST /api/auth/login | Harry (XYZ@gmail.com) [Owner] → Successful login
+payload: {"email":"XYZ@gmail.com"}
+[2025-11-12T22:26:02.365Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:30:06.050Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:30:15.925Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:41:51.459Z] POST /api/auth/login | Hari (viewer2@gmail.com) [Owner] → Successful login
+payload: {"email":"viewer2@gmail.com"}
+[2025-11-12T22:42:00.423Z] GET /api/tasks | Hari (viewer2@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:42:15.653Z] POST /api/auth/login | Harry (XYZ@gmail.com) [Owner] → Successful login
+payload: {"email":"XYZ@gmail.com"}
+[2025-11-12T22:42:27.281Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:44:03.173Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:44:27.129Z] UNKNOWN_METHOD UNKNOWN_URL | Harry (XYZ@gmail.com) [Owner] → Created task "Turbo Testiung"
+payload: {"title":"Turbo Testiung","type":"Work","status":"In-Test","description":"xyszzzz"}
+[2025-11-12T22:44:27.143Z] GET /api/tasks | Harry (XYZ@gmail.com) [Owner] → Viewed all tasks
+payload: {}
+[2025-11-12T22:45:05.449Z] POST /api/auth/register | abc (abc@gmail.com) [Viewer] → User registered successfully
+payload: {"fullName":"abc","email":"abc@gmail.com","password":"password","organizationName":"TurboVets","role":"Viewer"}
+[2025-11-12T22:45:16.259Z] POST /api/auth/login | abc (abc@gmail.com) [Viewer] → Successful login
+payload: {"email":"abc@gmail.com"}
+[2025-11-12T22:45:16.297Z] GET /api/tasks | abc (abc@gmail.com) [Viewer] → Viewed all tasks
+payload: {}
