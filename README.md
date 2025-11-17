@@ -137,7 +137,7 @@ POST /api/auth/login
 }
 ```
 
-### 📝 Create Task
+###  Create Task
 
 ```http
 POST /api/tasks
