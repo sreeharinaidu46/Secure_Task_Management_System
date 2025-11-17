@@ -1,5 +1,5 @@
 
-# 🚀 Secure Task Management System
+#  Secure Task Management System
 
 A full-stack role-based task management system built using:
 
@@ -13,9 +13,9 @@ A full-stack role-based task management system built using:
 
 ---
 
-## 🧱 Features
+##  Features
 
-### 🔐 Authentication & Authorization
+###  Authentication & Authorization
 
 * JWT authentication
 * Login & Register with organization assignment
@@ -35,7 +35,7 @@ A full-stack role-based task management system built using:
   * Work tasks → Only status + description editable
   * Personal tasks → Full edit allowed only for owner
 
-### 📦 Frontend UI (Angular)
+###  Frontend UI (Angular)
 
 * Clean task board UI with Tailwind
 * Create, Update, Delete tasks
@@ -43,7 +43,7 @@ A full-stack role-based task management system built using:
 * Drag and Drop (Angular CDK)
 * Logout + auth guard protected routes
 
-### 🧪 Testing
+###  Testing
 
 * Jest tests for:
 
@@ -52,7 +52,7 @@ A full-stack role-based task management system built using:
 
 ---
 
-# 🛠️ Architecture Overview
+#  Architecture Overview
 
 ```
 secure-task-system/
@@ -78,56 +78,56 @@ secure-task-system/
 
 ---
 
-# 🚀 How to Run the Project
+#  How to Run the Project
 
-## 1️⃣ Install dependencies
+## 1️ Install dependencies
 
 ```bash
 npm install
 ```
 
-## 2️⃣ Start PostgreSQL (Docker recommended)
+## 2️ Start PostgreSQL (Docker recommended)
 
 ```bash
 docker run --name securetask-db -e POSTGRES_PASSWORD=password \
 -p 5432:5432 -d postgres
 ```
 
-## 3️⃣ Start the Backend (NestJS API)
+## 3️ Start the Backend (NestJS API)
 
 ```bash
 npx nx serve api
 ```
 
 Runs at:
-👉 [http://localhost:3000/api](http://localhost:3000/api)
+ [http://localhost:3000/api](http://localhost:3000/api)
 
 ---
 
-## 4️⃣ Start the Frontend (Angular Dashboard)
+## 4️ Start the Frontend (Angular Dashboard)
 
 ```bash
 npx nx serve dashboard
 ```
 
 Runs at:
-👉 [http://localhost:4200/](http://localhost:4200/)
+ [http://localhost:4200/](http://localhost:4200/)
 
 ---
 
-# 🔐 User Roles & Access Control (RBAC)
+#  User Roles & Access Control (RBAC)
 
 | Role   | Create Personal | Create Work | Update Personal | Update Work               | Delete Work | Visibility        |
 | ------ | --------------- | ----------- | --------------- | ------------------------- | ----------- | ----------------- |
-| Viewer | ❌               | ❌           | ❌               | ❌                         | ❌           | Only own personal |
+| Viewer | ❌               | ❌           | ❌               | ❌                        | ❌        | Only own personal |
 | Admin  | ✔               | ✔           | ✔               | Status + Description only | ✔           | Org tasks only    |
 | Owner  | ✔               | ✔           | ✔               | ✔                         | ✔           | Org tasks only    |
 
 ---
 
-# 📡 Example API Requests
+#  Example API Requests
 
-### 🔐 Login
+###  Login
 
 ```http
 POST /api/auth/login
@@ -148,7 +148,7 @@ POST /api/tasks
 }
 ```
 
-### ✏️ Update Task (Work)
+###  Update Task (Work)
 
 ```http
 PUT /api/tasks/5
@@ -158,7 +158,7 @@ PUT /api/tasks/5
 }
 ```
 
-### ❌ Delete Task
+###  Delete Task
 
 ```http
 DELETE /api/tasks/5
@@ -166,7 +166,7 @@ DELETE /api/tasks/5
 
 ---
 
-# 🧪 Running Tests
+#  Running Tests
 
 ### Frontend Tests
 
@@ -182,19 +182,19 @@ npx nx test api
 
 ---
 
-# 📌 Future Improvements (If More Time)
+#  Future Improvements (If More Time)
 
-* 📊 Organization dashboards & analytics
-* 👥 Invite users via email to organization
-* 🔗 Task comments and file attachments
-* 🔄 Real-time updates via WebSockets
-* 🏢 Multi-tenancy with parent-child organizations
-* ✔️ End-to-end Cypress tests
-* 📱 Mobile app using Ionic or React Native
+*  Organization dashboards & analytics
+*  Invite users via email to organization
+*  Task comments and file attachments
+*  Real-time updates via WebSockets
+*  Multi-tenancy with parent-child organizations
+*  End-to-end Cypress tests
+*  Mobile app using Ionic or React Native
 
 ---
 
-# 🎯 Summary
+#  Summary
 
 This project showcases:
 
@@ -205,4 +205,4 @@ This project showcases:
 * Shared Nx monorepo architecture
 * Tested backend and frontend services
 
-t say the word!
+
