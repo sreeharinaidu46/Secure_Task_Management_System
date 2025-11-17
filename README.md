@@ -25,7 +25,7 @@ A full-stack role-based task management system built using:
   * **Admin:** Modify & delete only org tasks
   * **Owner:** Full organization rights
 
-### 📝 Task System
+###  Task System
 
 * Create **Personal** or **Work** tasks
 * Work tasks visible to **all users in same organization**
